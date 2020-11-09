@@ -1,0 +1,143 @@
+/*            ~FONTS START~           */
+@font-face {
+  font-family: 'kavivanarregular';
+  src: url('../fonts/kavivanar-regular-webfont.woff2') format('woff2'),
+       url('../fonts/kavivanar-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'carolingiaregular';
+  src: url('../fonts/carolingia-webfont.woff2') format('woff2'),
+       url('../fonts/carolingia-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'tendernessregular';
+  src: url('../fonts/tenderness-webfont.woff2') format('woff2'),
+       url('../fonts/tenderness-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+html >body{
+  background: linear-gradient(to left,#ffe ,#fff,#ffe)
+}
+html > body main .row:nth-child(2) h2{
+  font-family: "carolingiaregular", 'Lucida Sans', Arial, sans-serif ;
+  transform: scale(0.88, 1);
+  font-size: 5rem;
+}
+/* Large fellowship text */
+html > body main .row:nth-child(2) h2:nth-child(3){
+  line-height: 0rem;
+  font-size: 2.4rem;
+}
+/* Small fellowship text */
+html > body h2{
+  font-family: "carolingiaregular", 'Lucida Sans', Arial, sans-serif ;
+  transform: scale(0.88, 1);
+  font-size: 3.2rem;
+}
+html > body  .col > h2{
+  color: #000;
+}
+/* Fancy titles */
+html > body main .row:nth-child(2) h2:first-child,
+html > body main .row:nth-child(2) h2:last-child{
+  font-family: "kavivanarregular", 'Lucida Sans', Arial, sans-serif ;
+  font-variant: small-caps;
+  transform: scale(1) rotate(0deg) translate(0px, 0px) skew(5deg, 0deg);
+  font-size: 2rem;
+  color: #000;
+}
+/* Lord of the rings title font*/
+html > body p, html > body a, html > body label, html > body blockquote{
+  font-family: "tendernessregular", "kavivanarregular", 'Lucida Sans', Arial, sans-serif ;
+  transform: none;
+  font-variant: normal;
+  font-size: 1.4rem;
+}
+/* Generic text */
+a:hover{
+  color: #aa0000 !important;
+}
+button{
+  color: #000 !important;
+  border-color: #aa0000 !important;
+  background-color: #ddbb00 !important;
+}
+button:hover, button:active{
+  background-color: #aa0000 !important;
+}
+#headingOne > h2:hover{
+  color: #aa0000 !important;
+}
+.nav-tabs .active{
+  background-color: #ddbb00 !important;
+}
+/* Link colours */
+hr{
+  background-color: #aa0000;
+}
+html > body cite{
+  font-size: 1rem !important;
+  color: #aa0000 !important;
+}
+/* Citation */
+html > body main .row:nth-child(1) h2{
+  font-family: "tendernessregular", "kavivanarregular", 'Lucida Sans', Arial, sans-serif ;
+  font-size: 2rem;
+}
+/* Table of contents */
+html > body input{
+  font-family: "tendernessregular", "kavivanarregular", 'Lucida Sans', Arial, sans-serif ;
+  transform: none;
+  font-variant: normal;
+  font-size: 1.2rem !important;
+}
+/* Form input  */
+html  .navbar-brand{  font-family: "tendernessregular", "kavivanarregular", 'Lucida Sans', Arial, sans-serif ;
+  font-size: 2rem;
+}
+/* Navbar text */
+.nav-link{
+  color: #000000dd !important;
+}
+/*            ~FONTS END~           */
+
+.local-link, .local-link-2{
+  display: block;
+  top: -2rem;
+  position: relative;
+}
+.local-link-2{
+  top: -3.6rem;
+}
+/* On-page anchors for links, adjusted for a fixed nav */
+.carousel{
+  background-image: url("../img/hobbit_bg.jpg");
+}
+.carousel-inner {
+  background-color: #00000066;
+}
+.carousel-item{
+  margin-block-end: 0;
+}
+html main .row .carousel-inner > .carousel-item > .carousel-caption h2{
+  line-height: 3rem;
+}
+/* Carousel background and spacing */
+html main .row .carousel-inner > .carousel-item > .carousel-caption{
+  background: linear-gradient(#00000000, #000000cc 30%,#000);
+  left: 0;
+  bottom: 0;
+  padding-bottom: 0;
+  padding-top: 4rem;
+}
+/* Carousel caption gradient background */
+.container > header > .bg-custom{
+  background-color: #ddbb00 !important;
+}
+/* Nav colour */
